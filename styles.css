@@ -33,6 +33,7 @@ header {
 .header-content {
     display: flex;
     align-items: center;
+    flex-wrap: wrap; /* added for mobile */
 }
 
 .profile-picture {
@@ -68,7 +69,9 @@ nav ul {
     display: flex;
     justify-content: center;
     padding: 15px 0;
+    flex-wrap: wrap; /* added for mobile */
 }
+
 
 nav ul li {
     margin: 0 15px;
@@ -231,3 +234,60 @@ footer p {
   text-align: center; /* center the text horizontally */
   margin: 0;
 }
+
+/* Media Queries */
+
+/* Mobile (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .header-content {
+      flex-direction: column;
+    }
+  
+    .profile-picture {
+      width: 150px;
+      height: 150px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  
+    .project-card {
+      grid-template-columns: 1fr;
+    }
+  
+    .skills ul li {
+      margin: 10px 10px;
+    }
+  
+    .education-card {
+      margin-bottom: 10px;
+    }
+  
+    .achievements ul li {
+      margin-bottom: 5px;
+    }
+  
+    footer {
+      height: 30px;
+    }
+  }
+  
+  /* Tablet (max-width: 1024px) */
+  @media only screen and (max-width: 1024px) {
+    .container {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .header-content {
+      flex-direction:row}}
