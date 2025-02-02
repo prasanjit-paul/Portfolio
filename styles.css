@@ -28,7 +28,8 @@ header {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 50px 0;
+    padding: 0px 0;
+    /* background-image: url('Copy\ of\ Gray\ White\ Minimalist\ Personal\ Profile\ Linkedin\ Banner.png'); */
 }
 .header-content {
     display: flex;
