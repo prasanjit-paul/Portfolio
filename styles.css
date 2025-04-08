@@ -193,7 +193,7 @@ section h2::after {
 
 .project-cards {
     display: flex; /* Use flexbox for side-by-side layout */
-    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    /* flex-wrap: wrap; Allow wrapping for smaller screens */
     justify-content: center; /* Center the cards horizontally */
     gap: 20px; /* Add spacing between cards */
 }
