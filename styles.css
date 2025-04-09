@@ -362,22 +362,7 @@ footer {
     .project-card {
         width: 90%; /* Smaller width for project cards */
         font-size: 0.9rem; /* Smaller font size for description */
-    }
-}
-
-/* Tablet (max-width: 1024px) */
-@media only screen and (max-width: 1024px) {
-    .container {
-        width: 90%;
-        padding: 20px;
-    }
-
-    .header-content {
-        flex-direction: row;
-    }
-
-    .projects {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        /* flex-direction: column; */
     }
 }
 
